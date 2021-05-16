@@ -1,0 +1,33 @@
+.left_section {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5rem 0;
+
+    .content{
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .info{
+        width: 570px;
+
+        h1{
+            color: #27359E;
+            font-size: 2.625rem;
+        }
+        p{
+            color: #3f3f3f;
+            line-height: 2;
+        }
+    }
+
+    img{
+        height: auto;
+        max-width: 100%;
+        width: 50%;
+    }
+}

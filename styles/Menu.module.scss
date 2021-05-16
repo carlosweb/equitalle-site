@@ -1,0 +1,24 @@
+.menu {
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+
+        margin: 0 1rem;
+        
+
+        ul{
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            li{
+                list-style: none;
+                margin-right: 1rem;
+            }
+        }
+    }
+}

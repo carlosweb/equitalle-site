@@ -1,5 +1,5 @@
 .menu {
-    background-color: #ccc;
+    background-color: transparent;
     position: fixed;
     width: 100%;
 
@@ -21,4 +21,9 @@
             }
         }
     }
+    
+}
+
+.active{
+    background-color: #f0f0f0;
 }

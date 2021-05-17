@@ -1,10 +1,9 @@
 import styles from '../styles/Footer.module.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 
-
 export default function Footer() {
     return (
-        <div>
+        <div name="test1">
             <footer className={styles.footer}>
                 <div className={styles.info}>
                     <h1>Do you have any question? <br /> Feel free to contact us</h1>

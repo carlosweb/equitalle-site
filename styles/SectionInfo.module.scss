@@ -34,11 +34,15 @@
 }
 
 .features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: #F8FAFC;
     padding: 6rem 0;
+
+    .content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }

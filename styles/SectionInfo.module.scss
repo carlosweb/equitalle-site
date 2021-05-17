@@ -1,7 +1,7 @@
 .left_section {
     box-sizing: border-box;
     width: 100%;
-    padding: 5rem 0;
+    padding: 6rem 0;
 
     .content{
         max-width: 1200px;
@@ -10,6 +10,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 5rem;
     }
     
     .info{
@@ -30,4 +31,14 @@
         max-width: 100%;
         width: 50%;
     }
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 0;
 }

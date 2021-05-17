@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import SectionInfoLeft from '../comps/section_info_left'
 import SectionInfoRight from '../comps/section_info_right'
+import SectionFeature from '../comps/SectionFeatures'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       investments in real estate where rules for distributing profi are clear and manageable. 
       Our main heart is on the fact that real estate investment should be easy and auto-explanatory.
       '
-      img='Group 2.png' 
+      img='Group 2.svg' 
     />
 
     <SectionInfoLeft 
@@ -22,7 +23,7 @@ export default function Home() {
       capability to manage expenses and revenues in different granularities, from units to groups 
       of ventures. We digitalize the ledger, provide e-signature and automated payout distribution
       '
-      img='Group 3.png' 
+      img='Group 3.svg' 
     />
 
     <SectionInfoRight 
@@ -32,7 +33,7 @@ export default function Home() {
       We intend to streamline profit payout defined on waterfall agreements and  
       simplify investor’s portfolio prediction for multi-investments.
       '
-      img='Group 5.png' 
+      img='Group 5.svg' 
     />
 
     <SectionInfoLeft 
@@ -41,8 +42,11 @@ export default function Home() {
       Notary: Lawyers that settle agreements between Investors
       Real Estate Managers: Any company that manages or develop Real Estate ventures
       '
-      img='Group 4.png' 
+      img='Group 4.svg' 
     />
+
+
+    <SectionFeature />
     </div>
 
     

@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
             <footer className={styles.footer}>
                 <div className={styles.info}>
-                    <h1>Do you have any question? <br /> Feel free to contact</h1>
+                    <h1>Do you have any question? <br /> Feel free to contact us</h1>
                     <h3> +22 025210-805045</h3>
                     <h3>contato@equitalle.com.br</h3>
                 </div>

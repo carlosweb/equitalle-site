@@ -5,47 +5,34 @@ import SectionFeature from '../comps/SectionFeatures'
 
 export default function Home() {
   return (
-    <div>
+    <div name="about">
     <SectionInfoRight 
-      title='Why'
-      paragrafo='We believe in a simple and central tool that consolidates all 
-      investments in real estate where rules for distributing profi are clear and manageable. 
-      Our main heart is on the fact that real estate investment should be easy and auto-explanatory.
+      title='We Believe'
+      paragrafo='That managing your real estate investments should be simple andintuitive. 
+      Owning your property should be easy, as well asdistributing prots and nding liquidity in your property equity.
       '
       img='Group 2.svg' 
     />
 
     <SectionInfoLeft 
-      title='How?'
-      paragrafo='We allow investors to create their own portfolio and shareholders, 
-      define specific rules that reflect their operating agreements, summarizing the profits 
-      distribution in a determined cycle.Our system grants the administrators the 
-      capability to manage expenses and revenues in different granularities, from units to groups 
-      of ventures. We digitalize the ledger, provide e-signature and automated payout distribution
+      title='We allow'
+      paragrafo='Property owners and investors to create their own portfolio,overseeing ownerhip in a digital ledger. 
+      We grant to administratorsexpense and revenues management in a single or multipleproperty ventures.
+      Digital documents and e-signature streamline legal requirementsand, with operating rules that reect 
+      your needs, you can automateprot distributions.
       '
       img='Group 3.svg' 
     />
 
     <SectionInfoRight 
-      title='Who are we?'
-      paragrafo='A Fintech for real estate equity management with the goal to
-      optimize investors portfolio management and facilitate equity distribution. 
-      We intend to streamline profit payout defined on waterfall agreements and  
-      simplify investor’s portfolio prediction for multi-investments.
+      title='We are'
+      paragrafo='A Fintech for real estate equity management. We optimizeportfolios and streamlined prot payout, 
+      by helping you takecontrol of your properties ownership distribution.
       '
       img='Group 5.svg' 
     />
 
-    <SectionInfoLeft 
-      title='Actor?'
-      paragrafo='Investor: Real Estate partners that are lending the money to companies in Real Estate Management
-      Notary: Lawyers that settle agreements between Investors
-      Real Estate Managers: Any company that manages or develop Real Estate ventures
-      '
-      img='Group 4.svg' 
-    />
-
-
+   
     <SectionFeature />
     </div>
 

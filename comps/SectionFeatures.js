@@ -6,27 +6,15 @@ export default function SectionFeature() {
         <div name="features" className={section.features}>
             <div className={section.content}>
                 <Box
-                    title="Caple Table Management"
+                    title="Digital Ownership Ledger"
                     text="Lorem impsum"
                 />
                 <Box
-                    title="Transfer Agent"
+                    title="Property Financial Management"
                     text="Lorem impsum"
                 />
                 <Box
-                    title="Portfolio Dashboard"
-                    text="Lorem impsum"
-                />
-                <Box
-                    title="Title one"
-                    text="Lorem impsum"
-                />
-                <Box
-                    title="Title one"
-                    text="Lorem impsum"
-                />
-                <Box
-                    title="Title one"
+                    title="Automated Prot Distribution"
                     text="Lorem impsum"
                 />
             </div>

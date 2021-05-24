@@ -10,7 +10,7 @@ export default function SectionFeature() {
                     text="Lorem impsum"
                 />
                 <Box
-                    title="Property Financial Management"
+                    title="Finance & Property Management"
                     text="Lorem impsum"
                 />
                 <Box

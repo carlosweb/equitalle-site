@@ -1,26 +1,20 @@
 import { useState, useEffect } from 'react'
 import styles from '../styles/Menu.module.scss'
+import header from '../styles/Header.module.scss'
+import Button from './Button'
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import classnames from 'classnames';
 
 export default function Navbar() {
 
-    // const [navbar, setNavbar] = useState(false)
-
-
-    // const navbarChanged = () => {
-    //     if (window.scrollY >= 80) {
-    //         setNavbar(true)
-    //     } else {
-    //         setNavbar(false)
-    //     }
-    // }
-
     return (
+
         <div className={classnames(styles.menu)}>
             <nav>
-                <div className="logo"><img src="LOGO-EQUITALLE-landscape-white 1.png" /></div>
+                <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                    <div className={styles.logo} ><img src="LOGO-EQUITALLE-landscape-white 1.png" /></div>
+                </Link>
                 <ul>
                     <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} delay={0}>
                         <li>Home</li>
@@ -35,6 +29,7 @@ export default function Navbar() {
                         <li>Contact</li>
                     </Link>
                 </ul>
+                <Button name='Signup' color={header.secondary_button} />
             </nav>
         </div>
     )

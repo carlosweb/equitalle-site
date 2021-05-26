@@ -1,4 +1,5 @@
 import section from '../styles/SectionInfo.module.scss'
+import Image from 'next/image'
 
 export default function SectionInfoLeft({ title, paragrafo, img }) {
     return (

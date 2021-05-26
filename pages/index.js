@@ -2,6 +2,7 @@ import Head from 'next/head'
 import SectionInfoLeft from '../comps/section_info_left'
 import SectionInfoRight from '../comps/section_info_right'
 import SectionFeature from '../comps/SectionFeatures'
+import Image from 'next/image'
 
 export default function Home() {
   return (

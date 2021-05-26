@@ -4,13 +4,27 @@ import header from '../styles/Header.module.scss'
 import Button from './Button'
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-import classnames from 'classnames';
 
 export default function Navbar() {
 
+    const [navbar, setNavbar] = useState(false);
+
+    const changeNavbar = () => {
+
+        if(window.scrollY >= 500) {
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNavbar)
+    }, []);
+
     return (
 
-        <div className={classnames(styles.menu)}>
+        <div className={ navbar ? `${styles.menu}` : `${styles.active}`}>
             <nav>
                 <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} delay={0}>
                     <div className={styles.logo} ><img src="LOGO-EQUITALLE-landscape-white 1.png" /></div>

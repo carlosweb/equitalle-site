@@ -2,7 +2,6 @@ import Head from 'next/head'
 import SectionInfoLeft from '../comps/section_info_left'
 import SectionInfoRight from '../comps/section_info_right'
 import SectionFeature from '../comps/SectionFeatures'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -12,8 +11,9 @@ export default function Home() {
       paragrafo='That managing your real estate investments should be simple andintuitive. 
       Owning your property should be easy, as well asdistributing prots and nding liquidity in your property equity.
       '
-      img='Group 2.svg' 
+      img='Group 2.svg'
     />
+    
 
     <SectionInfoLeft 
       title='We allow'
@@ -33,7 +33,6 @@ export default function Home() {
       img='Group 5.svg' 
     />
 
-   
     <SectionFeature />
     </div>
 

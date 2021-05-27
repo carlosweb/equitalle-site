@@ -26,20 +26,20 @@ export default function Navbar() {
 
         <div className={ navbar ? `${styles.menu}` : `${styles.active}`}>
             <nav>
-                <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                <Link activeClass={styles.linkActive} to="home" spy={true} smooth={true} offset={0} duration={500} delay={0}>
                     <div className={styles.logo} ><img src="LOGO-EQUITALLE-landscape-white 1.png" /></div>
                 </Link>
                 <ul>
-                    <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                    <Link activeClass={styles.linkActive} to="home" spy={true} smooth={true} offset={20} duration={500} delay={0}>
                         <li>Home</li>
                     </Link>
-                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                    <Link activeClass={styles.linkActive} to="about" spy={true} smooth={true} offset={20} duration={500} delay={0}>
                         <li>About</li>
                     </Link>
-                    <Link activeClass="active" to="features" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                    <Link activeClass={styles.linkActive} to="features" spy={true} smooth={true} offset={20} duration={500} delay={0}>
                         <li>Features</li>
                     </Link>
-                    <Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500} delay={0}>
+                    <Link activeClass={styles.linkActive} to="contact" spy={true} smooth={true} offset={20} duration={500} delay={0}>
                         <li>Contact</li>
                     </Link>
                 </ul>

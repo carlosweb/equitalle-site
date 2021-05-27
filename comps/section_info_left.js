@@ -9,7 +9,7 @@ export default function SectionInfoLeft({ title, paragrafo, img }) {
                     <h1>{title}</h1>
                     <p>{paragrafo}</p>
                 </div>
-                <img src={img} />
+                <Image src={`/${img}`} width={1600} height={1600} />
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import SectionInfoLeft from '../comps/Section_info_left'
-import SectionInfoRight from '../comps/Section_info_right'
+import SectionInfoLeft from '../comps/SectionInfoLeft'
+import SectionInfoRight from '../comps/SectionInfoRight'
 import SectionFeature from '../comps/SectionFeatures'
 import SectionAbout from '../comps/SectionAbout'
 

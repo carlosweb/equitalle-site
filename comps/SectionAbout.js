@@ -14,7 +14,7 @@ export default function SectionAbout() {
                     width={1200}
                     height={1200}
                     objectFit="cover"
-                    Alt="Image officie equitalle"
+                    alt="Image officie equitalle"
                 />
            
             <div className={about.info}>

@@ -1,12 +1,33 @@
-.footer {
+.contact {
     background-color: #222222;
-    height: 50vh;
+    
 
-    h1,h3{
-        color: #f2f2f2;
-    }
+    .footer {
+        max-width: 1140px;
+        place-items: center;
+        height: 35vh;
+        place-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        padding: 3rem 0;
+    
+        .location, .call, .email {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-    .info{
-        padding: 2rem;
+            p{
+                color: #FFFFFF;
+            }
+        }
+    
+        h1,h3{
+            color: #f2f2f2;
+        }
+    
+        .info{
+            padding: 2rem;
+        }
     }
 }

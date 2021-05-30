@@ -29,7 +29,8 @@ export default function Navbar() {
                 <Link activeClass={styles.linkActive} to="home" spy={true} smooth={true} offset={0} duration={500} delay={0}>
                     <div className={styles.logo} ><img src="LOGO-EQUITALLE-landscape-white 1.png" /></div>
                 </Link>
-                <ul>
+<div>
+<ul>
                     <Link activeClass={styles.linkActive} to="home" spy={true} smooth={true} offset={20} duration={500} delay={0}>
                         <li>Home</li>
                     </Link>
@@ -44,6 +45,9 @@ export default function Navbar() {
                     </Link>
                 </ul>
                 <Button name='Signup' color={header.secondary_button} />
+</div>
+                
+
             </nav>
         </div>
     )

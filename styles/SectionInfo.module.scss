@@ -1,3 +1,26 @@
+.contentAbout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .info{
+        padding: 10rem 5rem;
+        background-color: #243761;
+
+        h4{
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #3783FD;
+        }
+
+        p{
+            font-size: 2rem;
+            font-weight: 600;
+            color: #f2f2f2;
+            
+        }
+    }
+}
+
 .left_section {
     box-sizing: border-box;
     width: 100%;
@@ -13,7 +36,7 @@
     }
     
     .info{
-        width: 570px;
+        width: 100%;
 
         h1{
             color: #3783FD;
@@ -30,7 +53,6 @@
     img{
         height: auto;
         max-width: 100%;
-        width: 50%;
     }
 }
 

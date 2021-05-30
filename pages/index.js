@@ -15,7 +15,7 @@ export default function Home() {
         paragrafo='That managing your real estate investments should be simple and intuitive. 
       Owning your property should be easy, as well as distributing prots and funding liquidity in your property equity.
       '
-        img='Design inspiration-pana.svg'
+        img='Designinspirationpana.svg'
       />
 
 
@@ -26,7 +26,7 @@ export default function Home() {
       Digital documents and e-signature streamline legal requirementsand, with operating rules that reect 
       your needs, you can automateprot distributions.
       '
-        img='Houses-bro.svg'
+        img='Housesbro.svg'
       />
 
       <SectionInfoRight

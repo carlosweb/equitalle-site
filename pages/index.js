@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import SectionInfoLeft from '../comps/Section_info_left'
-import SectionInfoRight from '../comps/Section_info_right'
-import SectionFeature from '../comps/SectionFeatures'
-import SectionAbout from '../comps/SectionAbout'
+import SectionInfoLeft from '/comps/Section_info_left'
+import SectionInfoRight from '/comps/Section_info_right'
+import SectionFeature from '/comps/SectionFeatures'
+import SectionAbout from '/comps/SectionAbout'
 
 export default function Home() {
   return (

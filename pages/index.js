@@ -15,7 +15,7 @@ export default function Home() {
         paragrafo='That managing your real estate investments should be simple and intuitive. 
       Owning your property should be easy, as well as distributing prots and funding liquidity in your property equity.
       '
-        img='Designinspirationpana.svg'
+        img='/Designinspirationpana.svg'
       />
 
 
@@ -26,7 +26,7 @@ export default function Home() {
       Digital documents and e-signature streamline legal requirementsand, with operating rules that reect 
       your needs, you can automateprot distributions.
       '
-        img='Housesbro.svg'
+        img='/Housesbro.svg'
       />
 
       <SectionInfoRight
@@ -34,7 +34,7 @@ export default function Home() {
         paragrafo='A Fintech for real estate equity management. We optimize portfolios and streamlined prot payout, 
       by helping you take control of your properties ownership distribution.
       '
-        img='selecthouseBro.svg'
+        img='/selecthouseBro.svg'
       />
 
       <SectionFeature />

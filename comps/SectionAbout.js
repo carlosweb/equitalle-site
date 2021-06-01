@@ -13,6 +13,7 @@ export default function SectionAbout() {
                     src="/image-officie.jpg"
                     width={1200}
                     height={1200}
+                    quality={75}
                     objectFit="cover"
                     alt="Image officie equitalle"
                 />
